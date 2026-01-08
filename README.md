@@ -22,12 +22,7 @@ Logistic Regression is chosen for its simplicity, interpretability, and effectiv
 ## Technologies & Tools
 
 1. Programming Language: Python
-2. Libraries Used:
-          .NumPy
-          .Pandas
-          .Matplotlib
-          .Seaborn
-          .Scikit-learn
+2. Libraries Used: NumPy, Pandas, Matplotlib, Seaborn, Scikit-learn
 
 ## Dataset Description
 
@@ -35,7 +30,7 @@ The dataset consists of features computed from digitized images of breast mass c
 Key features include:
 
 1. Radius
-2.Texture
+2. Texture
 3. Perimeter
 4. Area
 5. Smoothness
