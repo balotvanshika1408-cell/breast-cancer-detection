@@ -21,108 +21,76 @@ Logistic Regression is chosen for its simplicity, interpretability, and effectiv
 
 ## Technologies & Tools
 
-Programming Language: Python
+1. Programming Language: Python
+2. Libraries Used:
+          .NumPy
+          .Pandas
+          .Matplotlib
+          .Seaborn
+          .Scikit-learn
 
-Libraries Used:
-
-NumPy
-
-Pandas
-
-Matplotlib
-
-Seaborn
-
-Scikit-learn
-
-📂 Dataset Description
+## Dataset Description
 
 The dataset consists of features computed from digitized images of breast mass cell nuclei.
 Key features include:
 
-Radius
-
-Texture
-
-Perimeter
-
-Area
-
-Smoothness
-
-Compactness
-
-Concavity
-
-Symmetry
+1. Radius
+2.Texture
+3. Perimeter
+4. Area
+5. Smoothness
+6. Compactness
+7. Concavity
+8. Symmetry
 
 The target variable indicates whether the tumor is malignant (M) or benign (B).
 
-🔄 Project Workflow
+## Project Workflow
 
-Data Loading and Inspection
+1. Data Loading and Inspection
+2. Exploratory Data Analysis (EDA)
+3. Data Preprocessing
+4. Handling missing values
+5. Feature scaling
+6. Encoding target labels
+7. Model Training using Logistic Regression
+8. Model Evaluation
+9. Result Interpretation
 
-Exploratory Data Analysis (EDA)
-
-Data Preprocessing
-
-Handling missing values
-
-Feature scaling
-
-Encoding target labels
-
-Model Training using Logistic Regression
-
-Model Evaluation
-
-Result Interpretation
-
-📊 Model Evaluation Metrics
+## Model Evaluation Metrics
 
 The Logistic Regression model is evaluated using:
 
-Accuracy
-
-Precision
-
-Recall
-
-F1-Score
-
-Confusion Matrix
-
-ROC-AUC Score
+1. Accuracy
+2. Precision
+3. Recall
+4. F1-Score(classification report)
+5. Confusion Matrix
 
 These metrics help assess the model’s effectiveness, particularly in minimizing false negatives, which is critical in medical diagnosis.
 
-📈 Results
+## Results
 
 The Logistic Regression model demonstrates strong performance in classifying breast cancer cases.
 The results indicate that Logistic Regression can serve as a reliable and interpretable baseline model for breast cancer identification tasks.
 
-🧪 Notebook Details
+## Notebook Details
 
-The complete implementation is provided in a Jupyter Notebook
+The complete implementation is provided in a Jupyter Notebook.
+Includes data visualization, model training, and evaluation steps.
+Outputs such as confusion matrix and classification report are displayed in the notebook.
 
-Includes data visualization, model training, and evaluation steps
+## Future Scope
 
-Outputs such as confusion matrix and classification report are displayed in the notebook
+1. Apply advanced classifiers (SVM, Random Forest, XGBoost).
+2. Perform hyperparameter tuning for Logistic Regression.
+3. Use feature selection techniques to improve performance.
+4. Deploy the model as a web-based diagnostic support tool.
 
-🔮 Future Scope
-
-Apply advanced classifiers (SVM, Random Forest, XGBoost)
-
-Perform hyperparameter tuning for Logistic Regression
-
-Use feature selection techniques to improve performance
-
-Deploy the model as a web-based diagnostic support tool
-
-📌 Conclusion
+## Conclusion
 
 This project highlights the effectiveness of Logistic Regression in medical classification problems. Its interpretability and strong performance make it a suitable choice for breast cancer identification and early diagnostic support.
 
-📜 Disclaimer
+## Disclaimer
 
 This project is intended for educational and research purposes only and should not be used as a substitute for professional medical advice or diagnosis.
